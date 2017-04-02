@@ -1,0 +1,5 @@
+cluster.name: logging
+network.host: 0.0.0.0
+discovery.zen.ping.unicast.hosts: ["elasticsearch"]
+http.cors.enabled: true
+xpack.security.enabled: false
