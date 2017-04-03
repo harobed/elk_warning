@@ -27,7 +27,7 @@ services:
       - elk
 
   kibana:
-    image: docker.elastic.co/kibana/kibana:5.2.2
+    image: docker.elastic.co/kibana/kibana:5.3.0
     restart: unless-stopped
     ports:
       - 5601:5601
